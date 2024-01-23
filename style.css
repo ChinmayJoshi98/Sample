@@ -1,0 +1,85 @@
+* {
+    font-family: "Quicksand";
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #121212;
+}
+
+h1 {
+    color: #009523;
+}
+
+#message {
+    background-color: #009523;
+    color: #121212;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div.headingSection {
+    text-align: center;
+    margin: 20px;
+}
+
+div.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2#desc {
+    color: aliceblue;
+}
+
+div.userOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 1450px;
+    background-color: #141414;
+}
+
+.optionIcons {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.onIt {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.scores {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.scoreboard {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scr {
+    font-weight: bold;
+}
+
+#message:hover {
+    cursor: pointer;
+}

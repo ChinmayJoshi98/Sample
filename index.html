@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Sample page</title>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headingSection">
+        <h1 id="heading">Hi There!</h1>
+        <h2 id="desc">Welcome to the Rock, Paper, and Scissors Game</h2>
+    </div>
+    <div class="userOptions">
+        <img src="./public/rock.png" alt="Rock Image" id="rock" class="optionIcons">
+        <img src="./public/paper.png" alt="Paper Image" id="paper" class="optionIcons">
+        <img src="./public/scissors.png" alt="Scissors Image" id="scissors" class="optionIcons">
+    </div>
+    <div class="buttons">
+        <button id="message" onclick="handleClick()">Play</button>
+    </div>
+    <div class="scoreboard">
+        <div class="scores">
+            <p class="scr" id="userScoreDisp">0</p>
+            <p>Your Score</p>
+        </div>
+        <div class="scores">
+            <p class="scr" id="compScoreDisp">0</p>
+            <p>Computer</p>
+        </div>
+        <div class="scores">
+            <p id="userChoice">You chose _____</p>
+            <p id="compChoice">Computer chose ______</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
